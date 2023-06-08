@@ -2,5 +2,7 @@ homepage: "https://www.ingenioustechnologies.com/"
 documentation: "https://ingenioustechnologies.atlassian.net/wiki/spaces/KB/pages/3137798145/GTM"
 versions:
   # Latest version
-  - sha: 0822fdf829cbafa34fa266901f91c842a776fe29
+  - sha: "0822fdf829cbafa34fa266901f91c842a776fe29"
     changeNotes: "Initial Commit"
+  - sha: "67857b7f4c29cb7c1ac2899fb2eb5a2c46cc5709"
+    changeNotes: "Complete rewrite"

@@ -6,3 +6,5 @@ versions:
     changeNotes: "Initial Commit"
   - sha: "67857b7f4c29cb7c1ac2899fb2eb5a2c46cc5709"
     changeNotes: "Complete rewrite"
+  - sha: "6776a1f00d6caf22eb132d55253b86781778520d"
+    changeNotes: "Add amc and uv3"

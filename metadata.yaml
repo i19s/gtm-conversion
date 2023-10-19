@@ -1,10 +1,11 @@
 homepage: "https://www.ingenioustechnologies.com/"
 documentation: "https://ingenioustechnologies.atlassian.net/wiki/spaces/KB/pages/3137798145/GTM"
 versions:
-  # Latest version
   - sha: "0822fdf829cbafa34fa266901f91c842a776fe29"
     changeNotes: "Initial Commit"
   - sha: "67857b7f4c29cb7c1ac2899fb2eb5a2c46cc5709"
     changeNotes: "Complete rewrite"
   - sha: "6776a1f00d6caf22eb132d55253b86781778520d"
     changeNotes: "Add amc and uv3"
+  - sha: "ecfc019927d762d4c74fba58f991eaf83a17a2c0"
+    changeNotes: "Add header forwarding and basket processing"

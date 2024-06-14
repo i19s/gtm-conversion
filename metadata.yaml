@@ -9,3 +9,5 @@ versions:
     changeNotes: "Add amc and uv3"
   - sha: "ecfc019927d762d4c74fba58f991eaf83a17a2c0"
     changeNotes: "Add header forwarding and basket processing"
+  - sha: "42651d58f5afb5e20e8d0be558f5c85fec5b64ce"
+    changeNotes: "Fix the generation of the tracking URL"

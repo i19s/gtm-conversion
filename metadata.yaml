@@ -13,3 +13,5 @@ versions:
     changeNotes: "Fix the generation of the tracking URL"
   - sha: "e01b9c249e64ed93a1822b82c805b0fadb06e04f"
     changeNotes: "Adds comprehensive tracking parameters"
+  - sha: "fd80d43b8258abf0c8df4bef6354e72970041613"
+    changeNotes: "Changes conversion response type"

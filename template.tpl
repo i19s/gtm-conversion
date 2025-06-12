@@ -821,7 +821,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
     var urlData = {
         ip_address: "",
         tracking_category: initVariableFromTagOrDataLayer(copyFromDataLayer, logToConsole, 'tracking_category') || 'default',
-        conversion_response_type: "s",
+        conversion_response_type: "f",
         advertiser_id: initVariableFromTagOrDataLayer(copyFromDataLayer, logToConsole, 'advertiser_id') || '',
         basket: initBasket(copyFromDataLayer, logToConsole, 'basket') || [],
         conversion_id: initVariableFromTagOrDataLayer(copyFromDataLayer, logToConsole, 'conversion_id') || "default_".concat(getTimestampMillis(), "_").concat(generateRandom(0, 9)),

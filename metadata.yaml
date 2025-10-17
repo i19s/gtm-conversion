@@ -15,3 +15,5 @@ versions:
     changeNotes: "Adds comprehensive tracking parameters"
   - sha: "fd80d43b8258abf0c8df4bef6354e72970041613"
     changeNotes: "Changes conversion response type"
+    sha: "6490669b16dc7060a8f844e0620e821b2cd36b29"
+    changeNotes: "Reorders query parameters for tracking URL"

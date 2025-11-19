@@ -458,9 +458,12 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
         PRODUCT_CATEGORY: 'prc'
     };
     function isShortFormatEntry(entry) {
-        return entry && typeof entry === 'object' && (entry.id !== undefined || entry.pid !== undefined || entry.prn !== undefined || entry.sku !== undefined ||
+        if (!entry || typeof entry !== 'object') {
+            return false;
+        }
+        return entry.id !== undefined || entry.pid !== undefined || entry.prn !== undefined || entry.sku !== undefined ||
             entry.pri !== undefined || entry.brn !== undefined || entry.qty !== undefined || entry.dsv !== undefined ||
-            entry.shp !== undefined || entry.trc !== undefined || entry.prc !== undefined);
+            entry.shp !== undefined || entry.trc !== undefined || entry.prc !== undefined;
     }
     function shortToLongFormat(entry) {
         if (!entry || typeof entry !== 'object') {
@@ -808,7 +811,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
     var json = require('JSON');
 
     var DEFAULT_TRACKING_HOST = 'proxy.ingenious.cloud';
-    var TAG_VERSION = '6b600c482cd4a16ab43fbaacb118bec52447a1f3';
+    var TAG_VERSION = 'a2ac99f94b79ccb840a3bcd76f46addafb07d127';
 
     function sendPixelRequest(sendPixel, url) {
         sendPixel(url, function () {

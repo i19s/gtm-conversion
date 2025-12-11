@@ -19,3 +19,5 @@ versions:
     changeNotes: "Reorders query parameters for tracking URL"
   - sha: "6b1c6c156b60346accb440fe7200abd065071c9e"
     changeNotes: "Improves short format entry validation"
+  - sha: "95bf6ade5e434dbf90d8f4ca6487467f8c99925b"
+    changeNotes: "Updates click IDs mapping"

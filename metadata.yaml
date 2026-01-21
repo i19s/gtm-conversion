@@ -21,3 +21,5 @@ versions:
     changeNotes: "Improves short format entry validation"
   - sha: "95bf6ade5e434dbf90d8f4ca6487467f8c99925b"
     changeNotes: "Updates click IDs mapping"
+  - sha: "c7c03605b00128f786839c09204a9ac52c5f2dfe"
+    changeNotes: "Adds new conversion parameters"

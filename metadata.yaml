@@ -23,3 +23,5 @@ versions:
     changeNotes: "Updates click IDs mapping"
   - sha: "c7c03605b00128f786839c09204a9ac52c5f2dfe"
     changeNotes: "Adds new conversion parameters"
+  - sha: 5d9ab229bc9b67f9b51dc486d74465744f5e377f
+    changeNotes: "Add missing URL parameters to tracking URL"

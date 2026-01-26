@@ -726,6 +726,18 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
         var tracking_category = encodeUriComponent(config.tracking_category || '');
         var ip_address = encodeUriComponent(config.ip_address || '');
         var admedia_code = encodeUriComponent(config.admedia_code || '');
+        var order_value = encodeUriComponent(config.order_value || '');
+        var invoice_value = encodeUriComponent(config.invoice_value || '');
+        var confirmation_status = encodeUriComponent(config.confirmation_status || '');
+        var request_timestamp = encodeUriComponent(config.request_timestamp || '');
+        var customer_gender = encodeUriComponent(config.customer_gender || '');
+        var customer_age = encodeUriComponent(config.customer_age || '');
+        var customer_survey = encodeUriComponent(config.customer_survey || '');
+        var additional_data = encodeUriComponent(config.additional_data || '');
+        var user_value_4 = encodeUriComponent(config.user_value_4 || '');
+        var subtag = encodeUriComponent(config.subtag || '');
+        var adspace = encodeUriComponent(config.adspace || '');
+        var device_type = encodeUriComponent(config.device_type || '');
         if (debugLogging) {
             logToConsole('End Encode Uri Components');
         }
@@ -770,6 +782,18 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
             [QueryParameter.UNIQUE_ID, unique_id],
             [QueryParameter.IP_ADDRESS, ip_address],
             [QueryParameter.ADMEDIA_CODE, admedia_code],
+            [QueryParameter.ORDER_VALUE, order_value],
+            [QueryParameter.INVOICE_VALUE, invoice_value],
+            [QueryParameter.CONFIRMATION_STATUS, confirmation_status],
+            [QueryParameter.REQUEST_TIMESTAMP, request_timestamp],
+            [QueryParameter.CUSTOMER_GENDER, customer_gender],
+            [QueryParameter.CUSTOMER_AGE, customer_age],
+            [QueryParameter.CUSTOMER_SURVEY, customer_survey],
+            [QueryParameter.ADDITIONAL_DATA, additional_data],
+            [QueryParameter.USER_VALUE_4, user_value_4],
+            [QueryParameter.SUBTAG, subtag],
+            [QueryParameter.ADSPACE, adspace],
+            [QueryParameter.DEVICE_TYPE, device_type],
             [QueryParameter.BASKET, basket !== ENCODED_EMPTY_ARRAY ? basket : '']
         ], debugLogging);
         var url = "".concat(baseUrl).concat(queryString);
@@ -798,7 +822,7 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
     }
 
     var DEFAULT_TRACKING_HOST = 'proxy.ingenious.cloud';
-    var TAG_VERSION = '39ce34fc1fd6c09a144c21670070ef9b6859e420';
+    var TAG_VERSION = '49ec67dfc1bd48969fef6e53bb718e09965c0473';
 
     function createGtmTrackingUrlData(copyFromDataLayer, logToConsole, getCookieValues, makeString, getUrl, getReferrerUrl, getTimestampMillis, defaults) {
         var init = function (variable) {
